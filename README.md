@@ -1,4 +1,4 @@
-# 25/26 Winner Prediction 
+# UCL 25/26 Winner Prediction 
 Simple phyton project that can help to predict to which teamwill win the champions Leuge 
 
 #  What It Does
