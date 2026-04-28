@@ -59,19 +59,19 @@ table = table.sort_values(["Points", "GD", "GF"], ascending=False)
 # Reset index so rankings are clean numbers nstead of leftover original positions
 table = table.reset_index(drop=True)
 
-#  Shift index to start at 1 so position 1 = 1st place, matching how rankings are normally read
+# Shift index to start at 1 so position 1 = 1st place, matching how rankings are normally read
 table.index = table.index + 1  
 
-# display to top 5 teams get to teams in the table until index 5
+# Display to top 5 teams get to teams in the table until index 5
 top5 = table.head(5) 
 
-# print UCL 2025/26 PREDICTED WINNER for output
+# Print UCL 2025/26 PREDICTED WINNER for output
 print("  UCL 2025/26 PREDICTED WINNER")
 
-# print team in the first index in the table for output
+# Print team in the first index in the table for output
 print(f"  CHAMPION: {table.loc[1, 'Team']} ")
 
-# print TOP 5 RANKING: for output
+# Print TOP 5 RANKING: for output
 print("  TOP 5 RANKING:")
 
 # Print each of the top 5 teams in a formatted row with their key stats
