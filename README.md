@@ -23,8 +23,7 @@ Script can be simply run in the terminal
 - Rankings are sorted by **Points** first, then **Goal Difference** as a tiebreaker.
 - This is a stats-based prediction using existing match data
 
-## Bug
--  Sprict has conatin a one bug that , even thoug bayern and arsenel share the same goal code becuse of pyhton raking by Alphabetic line Arsenal coming before Bayern. That reoson script put Areseanl before Bayern.
+
 
 ##  License
 
