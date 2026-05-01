@@ -56,7 +56,7 @@ table = pd.DataFrame(team_stats)
 # Copmare the teams with Points, Goal Differsance, and Goals for 
 table = table.sort_values(["Points", "GD", "GF"], ascending=False)
 
-# Reset index so rankings are clean numbers nstead of leftover original positions
+# Reset index so rankings are clean numbers instead of leftover original positions
 table = table.reset_index(drop=True)
 
 # Shift index to start at 1 so position 1 = 1st place, matching how rankings are normally read
